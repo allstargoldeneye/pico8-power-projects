@@ -1,0 +1,21 @@
+﻿Working Title:
+WurfelCaddy
+
+Short Description:
+Dungeon delving golf game with procedurely generated golf courses, unusual and collectible clubs and increasing difficulty opponents
+
+Basic Game Loop:
+1. Enter course and reveal opponent based on theme (Goblin Camp, Lich Hideout, etc.)
+2. Select clubs (and special abilities?) to bring with
+3. Play a round of gold against opponent
+4. If you win the round, gain something (money? Golf clubs?)
+
+Minimum Viable Product
+1. Procedurely generate golf course
+2. Select from clubs
+3. Roll dice
+4. Calculate golf swing outcomes based on dice rolls
+5. Display swing outcomes to golf course map
+6. Calculate score based on total swings needed
+
+
