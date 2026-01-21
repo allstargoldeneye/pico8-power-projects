@@ -10,7 +10,7 @@ Basic Game Loop:
 3. Play a round of gold against opponent
 4. If you win the round, gain something (money? Golf clubs?)
 
-Minimum Viable Product
+Minimum Viable Product:
 1. Procedurely generate golf course
 2. Select from clubs
 3. Roll dice
@@ -18,4 +18,22 @@ Minimum Viable Product
 5. Display swing outcomes to golf course map
 6. Calculate score based on total swings needed
 
+Design Ideas:
+
+Golf clubs have a DC modifier and Distance roll. Cursed clubs(which I know Nigel will pick) could bind themselves to you, so that you could only use them for the whole hole. Putting could be a different type of minigame with more attention paid to direction and distance.
+
+Different course pieces have different DC requirements
+Teeway - DC 5
+Green - DC 8
+Rough - DC 12
+Hazards - DC 15-25
+
+Might be fun to come up with more hazards than just water and sand. Pit and spike traps?
+Casting water walk negates water hazards? Gate spell is an instant hole in one?
+
+Course Generation Ideas:
+Every course starts with a teeway. Should be large enough to see graphically. Will need to run some simulations to see how long it takes to reach putting green to decide how long to make each course. Minimum hazard sizes?
+
+General hole layout:
+Teeway -> Green/Rough/Hazard -> Green/Rough/Hazard -> etc depending on hole size -> Putting Green
 
